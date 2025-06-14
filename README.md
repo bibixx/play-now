@@ -38,6 +38,24 @@ A Chrome extension that automatically modifies API requests to Play Now — a Po
 4. Przeciągnij i upuść pobrany plik CRX na stronę rozszerzeń
 5. Potwierdź instalację po wyświetleniu monitu
 
+### Using the XPI file (Firefox Installation)
+
+#### English
+
+1. Download the latest XPI file from the [Releases](https://github.com/bibixx/play-now/releases) page
+2. Open Firefox and navigate to `about:addons`
+3. Click the gear icon and select "Install Add-on From File..."
+4. Select the downloaded XPI file
+5. Confirm the installation when prompted
+
+#### Polski
+
+1. Pobierz najnowszy plik XPI ze strony [Releases](https://github.com/bibixx/play-now/releases)
+2. Otwórz Firefox i przejdź do `about:addons`
+3. Kliknij ikonę koła zębatego i wybierz "Zainstaluj dodatek z pliku..."
+4. Wybierz pobrany plik XPI
+5. Potwierdź instalację po wyświetleniu monitu
+
 ## How it works
 
 The extension automatically modifies all requests to `https://playnow.pl/api/*` by:

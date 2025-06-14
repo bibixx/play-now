@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "PlayNow Platform Rewriter",
-  "version": "1.0",
-  "description": "Rewrites platform parameter to APPLE_TV in PlayNow API requests",
+  "name": "PLAY NOW channels fixer",
+  "version": "1.0.1",
+  "description": "Brings all of the available channels to the PLAY NOW app in the browser",
   "permissions": ["declarativeNetRequest"],
   "host_permissions": ["https://playnow.pl/*"],
   "declarative_net_request": {
@@ -13,5 +13,10 @@
         "path": "rules.json"
       }
     ]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "channels-fixer@playnow.pl"
+    }
   }
 }
