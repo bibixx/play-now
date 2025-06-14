@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "addOrReplaceParams": [
+              {
+                "key": "platform",
+                "value": "APPLE_TV"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "condition": {
+      "urlFilter": "playnow.pl/api/",
+      "resourceTypes": ["xmlhttprequest"]
+    }
+  }
+]

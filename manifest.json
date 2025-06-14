@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "PlayNow Platform Rewriter",
+  "version": "1.0",
+  "description": "Rewrites platform parameter to APPLE_TV in PlayNow API requests",
+  "permissions": ["declarativeNetRequest"],
+  "host_permissions": ["https://playnow.pl/*"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}
